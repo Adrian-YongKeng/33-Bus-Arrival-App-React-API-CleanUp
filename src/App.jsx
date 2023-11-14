@@ -35,9 +35,9 @@ export default function App() {
 
   return (
     <div>
-     
+
       <h1>Bus Arrival Times</h1>
-       <img src="./src/bus anima.gif" height='150'/>
+      <img src="./src/day_bus.gif" height='180' />
       <h2>Bus Stop ID {busStopId}</h2>
       <select value={busStopId} onChange={selectInputChange}>
         <option value="">Select Bus Stop ID</option>
